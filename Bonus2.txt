@@ -1,0 +1,3 @@
+Non ,Mon code ne respect pas les pricipes SOLID.
+Car la class GestionnaireEmploiDuTemps ne respecte pas le principe de responsabilité unique (Single Responsibility Principle).
+En effet, cette classe gère à la fois l'attchement et le dettachement des observers (Abonnés) et la notification des changements d'état aux observers.
